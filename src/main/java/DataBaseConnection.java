@@ -10,7 +10,7 @@ public class DataBaseConnection {
     public static void main(String[] args) {
         try {
             Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
-            System.out.println("Conexão bem-sucedida! 🎉");
+            System.out.println("Conexão funcionando ");
             conn.close();
         } catch (SQLException e) {
             System.out.println("Erro na conexão: " + e.getMessage());
